@@ -85,7 +85,7 @@ function remove(selectors) {
             selectors.removeNode.push({
                 parent: selectors[i].parentNode,
                 inner: selectors[i].outerHTML,
-                next: selectors[i].nextSibling // 紧接着下一个兄弟元素
+                next: selectors[i].nextSibling
             });
         }
 
